@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+}
+.input-Question{
+    width: 50rem;
+    overflow: auto;
+}
+ol li{
+    list-style: none;
+    display: inline; 
+    margin: 40px;
+    font-size: large;
+}
+.buttonadd{
+    width: 90px;
+    border-radius: 2px;
+}
+#testBlock{
+    display: none;
+}
+#institute-Name{
+    width: 500px;
+}
+#Sub{
+    width: 500px;
+}
+#Time{
+    width: 500px;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#details input{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
